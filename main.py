@@ -1,3 +1,6 @@
+from string import ascii_letters, digits
+from random import shuffle
+
 def inverse_monoalpha_cipher(monoalpha_cipher):
     inverse_monoalpha = {}
     for key, value in monoalpha_cipher.items():
